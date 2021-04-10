@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="./car-back.png" alt="A car">
+                </div>
+                <a href="#" class="navbar-brand">Car Detailing</a>
+                <ul class="navbar-nav me-auto">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>  
+    </header>
+    <section id="sign-up">
+        <h2>Get your car detailed today!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+            <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+    </section>
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>
+                    Your car will be detailed using only this highest quality chemicals and equipment.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                <div class="desc">
+                    <h2>Same Day Service</h2>
+                    <p>
+                    We get your car detailed and looking like new in under a day.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                </div>
+                <div class="desc">
+                    <h2>Quality Assurance</h2>
+                    <p>
+                    We go the extra mile to ensure your car is looking like the day you bought it!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <iframe class="video" id="video" src="https://www.youtube-nocookie.com/embed/Pctzq_pT2MU" allowfullscreen="" height="315" width="400" frameborder="0"></iframe>
+        </section>
+        <section id="pricing">
+            <div class="product" id="exterior">
+                <div class="level">Exterior Detail</div>
+                <h2>$400</h2>
+                <ul>
+                    <li>Car washed</li>
+                    <li>Car clayed/waxed</li>
+                    <li>Wheels washed/dressed</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="interior">
+                <div class="level">Interior Detail</div>
+                <h2>$500</h2>
+                <ul>
+                    <li>Carpets/seats shampooed</li>
+                    <li>Interior plastics/gauges cleaned</li>
+                    <li>UV Protectant used on interior plastics</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="deluxe">
+                <div class="level">Deluxe Wash</div>
+                <h2>$850</h2>
+                <ul>
+                    <li>Interior Detail</li>
+                    <li>Exterior Detail</li>
+                    <li>Discounted Price!</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright 2016, Original Trombones</span>
+        </footer>
+    </div>
+</body>
+</html>
